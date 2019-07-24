@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tài khoản</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- slickjs -->
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/query.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header__top">
+            <div class="container">
+                <div class="row bg__top">
+                    <div class="col-lg-10 text__top">
+                        NỘI THẤT LƯƠNG SƠN - TỔNG KHO NỘI THẤT #1 HÀ NỘI
+                    </div>
+                    <div class="con-lg-2 text__icon-top">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-3 my-3">
+                    <img src="https://noithatluongson.vn/wp-content/uploads/2018/12/luong-son-logo.png" alt="" class="logo">
+                </div>
+                <div class="col-4 col-md-3 col-lg-2 my-4 contact__info">
+                    <img src="https://noithatluongson.vn/wp-content/uploads/2018/12/icon-bieu-tuong-dien-thoai-ban.png" alt="" class="contact__icon">
+                    <div class="contact__hotline">
+                        <h5>HOTLINE 24/7:</h5>
+                        <p>0976.19.59.22</p>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-lg-3 my-4 contact__info">
+                    <img src="https://noithatluongson.vn/wp-content/uploads/2018/12/mail-tham-tu.png" alt="" class="contact__icon">
+                    <div class="contact__mail">
+                        <h5>ĐỊA CHỈ EMAIL:</h5>
+                        <p>noithatluongson123@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-4 col-md-3 col-lg-4 my-4 contact__info">
+                    <img src="https://noithatluongson.vn/wp-content/uploads/2018/12/icon-vi-tri-tham-tu-247.png" alt="" class="contact__icon">
+                    <div class="contact__add">
+                        <h5>ĐỊA CHỈ CÔNG TY:</h5>
+                        <p>Ngõ 1 Phạm Văn Bạch, Yên Hòa, Cầu Giấy, Hà Nội</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menu -->
+        <div class="menu-content" id="menu">
+            <nav class="navbar navbar-expand navbar__bg" id="navbar-scroll">
+                <div class="container">
+                    <div class="row menu-row">
+                        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> -->
+                        <div class="collapse navbar-collapse menuu" id="collapsibleNavbar">
+                            <ul class="navbar-nav menu responsive">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Trang chủ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sanpham.html">Sản phẩm</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="hethongphanphoi.html">Hệ thống phân phối</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="tintuc.html">Tin tức</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="">Kinh nghiệm</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Thiết kế</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Phong thủy</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Tuyển dụng</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="taikhoan.html">Tài khoản</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <form class="form-inline form__search float-right">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                            <i class="fas fa-search"></i>
+                        </form>
+                        <a href="javascript:void(0);" class="icon-menu-top">
+                            <i class="fa fa-bars"></i>
+                        </a>                   
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="container">
+            <div class="layout">
+                <div class="breadcrumbs">
+                    <span class="breadcrumbs__text">
+                      <a href="noithatluongson.vn">Trang chủ</a>
+                      » 
+                      <span>Tài khoản</span>
+                  </span>
+              </div>
+              <div class="entry-content">
+                <div class="col-12 col-lg-3 content-left">
+                    <div class="widget">
+                        <h4 class="widget__title category">DANH MỤC SẢN PHẨM</h4>
+                        <div class="list__products">
+                            <ul>
+                                <li class="list__products-item">
+                                    <a href="" class="list__products-item-icon">Bàn làm việc văn phòng</a>
+                                    <i class="fas fa-angle-double-right fa-fw"></i>
+                                    <ul class="list__products-sub-menu">
+                                        <li><a href="">Bàn làm việc gỗ</a></li>
+                                        <li><a href="">Bàn chân sắt</a></li>
+                                        <li><a href="">Bàn họp</a></li>
+                                        <li><a href="">Bàn giám đốc</a></li>
+                                        <li><a href="">Bàn làm việc tại nhà</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="" class="list__products-item-icon">Ghế văn phòng</a>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <ul class="list__products-sub-menu">
+                                        <li><a href="">Ghế giám đốc</a></li>
+                                        <li><a href="">Ghế quỳ</a></li>
+                                        <li><a href="">Ghế xoay</a></li>
+                                        <li><a href="">Ghế gấp</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="" class="list__products-item-icon">Tủ văn phòng</a>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <ul class="list__products-sub-menu">
+                                        <li><a href="">Tủ sắt</a></li>
+                                        <li><a href="">Tủ locker</a></li>
+                                        <li><a href="">Tủ hồ sơ gỗ</a></li>
+                                        <li><a href="">Hộc tủ</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="" class="list__products-item-icon">Giá - kệ</a>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <ul class="list__products-sub-menu">
+                                        <li><a href="">Kệ sắt</a></li>
+                                        <li><a href="">Kệ đa năng</a></li>
+                                        <li><a href="">Kệ gỗ</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="" class="list__products-item-icon">Sofa</a>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <ul class="list__products-sub-menu">
+                                        <li><a href="">Ghế sofa</a>
+                                            <i class="fas fa-angle-double-right"></i>
+                                            <ul class="sub-sub-menu">
+                                                <li><a href="">sofa góc</a></li>
+                                                <li><a href="">sofa da</a></li>
+                                                <li><a href="">sofa nỉ</a></li>
+                                                <li><a href="">sofa văng</a></li>
+                                                <li><a href="">sofa văn phòng</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Bàn sofa</a></li>
+                                        <li><a href="">Sofa giường</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="" class="list__products-item-icon">Bàn trà</a>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="" class="list__products-item-icon">Bàn ghế ăn</a>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="" class="list__products-item-icon">Bàn ghế cafe</a>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="" class="list__products-item-icon">Tủ quần áo</a>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="" class="list__products-item-icon">Tủ giày</a>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <ul class="list__products-sub-menu">
+                                        <li><a href="">Tủ giày gỗ</a></li>
+                                        <li><a href="">Tủ giày thông minh</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="">Kệ tivi</a>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="">Giường ngủ</a>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <ul class="list__products-sub-menu">
+                                        <li><a href="">Giường gỗ</a></li>
+                                        <li><a href="">Giường tầng</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="">Két sắt</a>
+                                </li>
+                                <li class="list__products-item">
+                                    <a href="">Nội thất trường học</a>
+                                    <i class="fas fa-angle-double-right"></i>
+                                    <ul class="list__products-sub-menu">
+                                        <li><a href="">Bàn ghế học sinh</a></li>
+                                        <li><a href="">Bảng từ trắng</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="widget-menu" id="widget-menu">
+                        <div class="menu__close" id="menu__close">
+                            <p class="close-menu">Đóng menu<span><i class="fas fa-times fa-fw"></i></span></p>
+                        </div>
+                        <div class="menu__dropdown">
+                            <ul class="menu__widget">
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Bàn làm việc văn phòng</a>
+                                    <i class="fas fa-sort-down fa-2x fa-fw triangle"></i>
+                                    <ul class="list__style-sub-menu">
+                                        <li><a href="">Bàn làm việc gỗ</a></li>
+                                        <li><a href="">Bàn chân sắt</a></li>
+                                        <li><a href="">Bàn họp</a></li>
+                                        <li><a href="">Bàn giám đốc</a></li>
+                                        <li><a href="">Bàn làm việc tại nhà</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Ghế văn phòng</a>
+                                    <i class="fas fa-sort-down fa-2x fa-fw triangle"></i>
+                                    <ul class="list__style-sub-menu">
+                                        <li><a href="">Ghế giám đốc</a></li>
+                                        <li><a href="">Ghế quỳ</a></li>
+                                        <li><a href="">Ghế xoay</a></li>
+                                        <li><a href="">Ghế gấp</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Tủ văn phòng</a>
+                                    <i class="fas fa-sort-down fa-2x fa-fw triangle"></i>
+                                    <ul class="list__style-sub-menu">
+                                        <li><a href="">Tủ sắt</a></li>
+                                        <li><a href="">Tủ locker</a></li>
+                                        <li><a href="">Tủ hồ sơ gỗ</a></li>
+                                        <li><a href="">Hộc tủ</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Giá - kệ</a>
+                                    <i class="fas fa-sort-down fa-2x fa-fw triangle"></i>
+                                    <ul class="list__style-sub-menu">
+                                        <li><a href="">Kệ sắt</a></li>
+                                        <li><a href="">Kệ đa năng</a></li>
+                                        <li><a href="">Kệ gỗ</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Sofa</a>
+                                    <i class="fas fa-sort-down fa-2x fa-fw triangle"></i>
+                                    <ul class="list__style-sub-menu">
+                                        <li><a href="">Ghế sofa</a>
+                                            <!-- <i class="fas fa-angle-double-right"></i> -->
+                                            <i class="fas fa-sort-down fa-2x fa-fw triangle-in"></i>
+                                            <ul class="sub-sub-sub-menu">
+                                                <li><a href="">Sofa góc</a></li>
+                                                <li><a href="">Sofa da</a></li>
+                                                <li><a href="">Sofa nỉ</a></li>
+                                                <li><a href="">Sofa văng</a></li>
+                                                <li><a href="">Sofa văn phòng</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Bàn sofa</a></li>
+                                        <li><a href="">Sofa giường</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Bàn trà</a>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Bàn ghế ăn</a>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Bàn ghế cafe</a>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Tủ quần áo</a>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Tủ giày</a>
+                                    <i class="fas fa-sort-down fa-2x fa-fw triangle"></i>
+                                    <ul class="list__style-sub-menu">
+                                        <li><a href="">Tủ giày gỗ</a></li>
+                                        <li><a href="">Tủ giày thông minh</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Kệ tivi</a>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Giường ngủ</a>
+                                    <i class="fas fa-sort-down fa-2x fa-fw triangle"></i>
+                                    <ul class="list__style-sub-menu">
+                                        <li><a href="">Giường gỗ</a></li>
+                                        <li><a href="">Giường tầng</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Két sắt</a>
+                                </li>
+                                <li class="list__style-item">
+                                    <a href="" class="list__style-item-icon">Nội thất trường học</a>
+                                    <i class="fas fa-sort-down fa-2x fa-fw triangle"></i>
+                                    <ul class="list__style-sub-menu">
+                                        <li><a href="">Bàn ghế học sinh</a></li>
+                                        <li><a href="">Bảng từ trắng</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="support">
+                        <h4 class="widget__title">Hỗ trợ trực tuyến</h4>
+                        <img src="https://noithatluongson.vn/wp-content/uploads/2018/12/ho-tro-noi-that-luong-son.jpg" alt="">
+                        <div class="support__info">
+                            <div class="support__info-1">
+                                <p class="support__info-1-text">Chuyên viên tư vấn</p>
+                                <span>
+                                  <i class="fas fa-phone-alt support__icon"></i>
+                                  <a href="" class="support__phone">0961 399 005</a>
+                              </span>
+                          </div>
+                          <hr>
+                          <div class="support__info-2">
+                            <p class="support__info-2-text">Bảo hành - Khiếu nại</p>
+                            <span>
+                              <i class="fas fa-phone-alt support__icon"></i>
+                              <a href="" class="support__phone">0984 316 166</a>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+              <div class="products__left">
+                <h4 class="widget__title">Sản phẩm bán chạy</h4>
+                <div class="slider">
+                    <div class="slider-1">
+                        <a href=""><img src="https://noithatluongson.vn/wp-content/uploads/2018/07/ban-chan-sat-chu-u-vat-bcsu03-1.jpg" alt="" class="slider__imge"></a>
+                        <div class="slider__text">
+                            <div href="" class="slider__text-title">Bàn làm việc chân sắt chữ U</div>
+                            <span class="slider__text-price">Giá: 500.000 đ</span>
+                            <a href="" class="slider__text-details">Chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="slider-2">
+                        <a href=""><img src="https://noithatluongson.vn/wp-content/uploads/2018/07/ban-chan-sat-chu-u-vat-bcsu03-1.jpg" alt="" class="slider__imge"></a>
+                        <div class="slider__text">
+                            <div href="" class="slider__text-title">Bàn làm việc chân sắt chữ U</div>
+                            <span class="slider__text-price">Giá: 500.000 đ</span>
+                            <a href="" class="slider__text-details">Chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="slider-3">
+                        <a href=""><img src="https://noithatluongson.vn/wp-content/uploads/2018/07/ban-chan-sat-chu-u-vat-bcsu03-1.jpg" alt="" class="slider__imge"></a>
+                        <div class="slider__text">
+                            <div href="" class="slider__text-title">Bàn làm việc chân sắt chữ U</div>
+                            <span class="slider__text-price">Giá: 500.000 đ</span>
+                            <a href="" class="slider__text-details">Chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="slider-4">
+                        <a href=""><img src="https://noithatluongson.vn/wp-content/uploads/2018/07/ban-chan-sat-chu-u-vat-bcsu03-1.jpg" alt="" class="slider__imge"></a>
+                        <div class="slider__text">
+                            <div href="" class="slider__text-title">Bàn làm việc chân sắt chữ U</div>
+                            <span class="slider__text-price">Giá: 500.000 đ</span>
+                            <a href="" class="slider__text-details">Chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="slider-5">
+                        <a href=""><img src="https://noithatluongson.vn/wp-content/uploads/2018/07/ban-chan-sat-chu-u-vat-bcsu03-1.jpg" alt="" class="slider__imge"></a>
+                        <div class="slider__text">
+                            <div href="" class="slider__text-title">Bàn làm việc chân sắt chữ U</div>
+                            <span class="slider__text-price">Giá: 500.000 đ</span>
+                            <a href="" class="slider__text-details">Chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="slider-6">
+                        <a href=""><img src="https://noithatluongson.vn/wp-content/uploads/2018/07/ban-chan-sat-chu-u-vat-bcsu03-1.jpg" alt="" class="slider__imge"></a>
+                        <div class="slider__text">
+                            <div href="" class="slider__text-title">Bàn làm việc chân sắt chữ U</div>
+                            <span class="slider__text-price">Giá: 500.000 đ</span>
+                            <a href="" class="slider__text-details">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="facebook__left" style="overflow: hidden;">
+                <h4 class="widget__title">Like facebook</h4>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNoithatluongson%2F&tabs=timeline&width=265&height=260&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1166349150203041" width="265" height="260" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="statisic__left">
+                <h4 class="widget__title">Thống kê truy cập</h4>
+                <ul class="statisic__info">
+                    <li>Tổng truy cập:
+                        <span>295256</span>
+                    </li>
+                    <li>Hôm nay:
+                        <span>1131</span>
+                    </li>
+                    <li>Hôm qua:
+                        <span>1768</span>
+                    </li>
+                    <li>Đang online:
+                        <span>14</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-12 col-lg-9 content-right">
+            <h1 class="content__title">Tài khoản</h1>
+            <div class="emtry-content">
+             <div class="woocommerce">
+                <!-- <div class="row"> -->
+                    <div class="col-sm-12 col-xs-12 col-md-6 col-md-6">
+                        <div class="form-dangky">
+                            <h3>ĐĂNG KÝ</h3>
+                            <form action="">
+                                <p>
+                                    <label for="">Nhập địa chỉ email</label> <br>
+                                    <input type="text" name="email" id=""> 
+                                </p>
+                                <p>
+                                    <label for="">Mật khẩu</label> <br>
+                                    <input type="password" name="password" id="">
+                                </p>
+                                <p>
+                                    <label for="">Nhập lại mật khẩu</label><br>
+                                    <input type="password" name="password" id="">
+                                </p>
+                                <p>
+                                    <button type="submit" name="dangky" value="">Đăng ký</button>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="form-dangnhap">
+                            <h3>ĐĂNG NHẬP</h3>
+                            <form action="">
+                                <p>
+                                    <label for="">Tên tài khoản hoặc địa chỉ email</label><br>
+                                    <input type="text" name="" id="">
+                                </p>
+                                <p>
+                                    <label for="">Mật khẩu đăng nhập</label><br>
+                                    <input type="password" name="password" id="">
+                                </p>
+                                <p>
+                                    <button type="submit" name="login" value="">Đăng nhập</button>
+                                    <label for="">
+                                        <input type="checkbox" name="nhomatkhau" id="button">
+                                        <span>Nhớ mật khẩu</span>
+                                    </label>
+                                </p>
+                                <p class='forget-password'>
+                                    <a href="#">Quên mật khẩu ?</a>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                <!-- </div> -->
+                
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <ul class="footer__menu">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="gioithieu.html">Giới thiệu</a></li>
+            <li><a href="">Sản phẩm</a></li>
+            <li><a href="">Hệ thống phân phối</a></li>
+            <li><a href="">Tin tức</a></li>
+            <li><a href="">Liên hệ</a></li>
+            <li><a href="">Tài khoản</a></li>
+        </ul>
+        <div class="time__open">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>CỬA HÀNG NỘI THẤT GIÁ RẺ MỞ CỬA 7 NGÀY / TUẦN</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer__info">
+            <div class="row">
+                <div class="col-12 col-lg-3 footer__info-support">
+                    <h3>HỖ TRỢ KHÁCH HÀNG</h3>
+                    <ul>
+                        <li><a href="">Chính sách vận chuyển</a></li>
+                        <li><a href="">Chính sách thanh toán</a></li>
+                        <li><a href="">Chính sách đổi trả, hoàn tiền</a></li>
+                        <li><a href="">Chính sách bảo hành</a></li>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Chính sách xử lý khiếu nại</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-5 footer__info-contact">
+                    <h3>Thông tin liên hệ</h3>
+                    <p>
+                        NỘI THẤT LƯƠNG SƠN - TỔNG KHO NỘI THẤT
+                        <br> Hotline: 0976.19.59.22 - 0961.399.005 - 0961.399.008
+                        <br>
+                        <a href="https://www.facebook.com/Noithatluongson">Fanpage: https://www.facebook.com/Noithatluongson</a>
+                        <br> Địa chỉ: Ngõ 1 Phạm Văn Bạch, Yên Hòa, Cầu Giấy, Hà Nội (ngõ giữa Viện Huyết Học Truyền Máu Trung Ương và tòa nhà dầu khí PVI)
+                    </p>
+                    <div class="brand">
+                        <img src="https://noithatluongson.vn/wp-content/uploads/2019/05/logo-thong-bao-bo-cong-thuong.png" alt="" width="120">
+                        <img src="https://noithatluongson.vn/wp-content/uploads/2019/04/dmca-badge-w100-5x1-09.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 footer__info-map">
+                    <h3>BẢN ĐỒ CHỈ ĐƯỜNG</h3>
+                    <div id="map">
+                        <p><iframe width="100%" height="206px !important" frameborder="0" style="border:0" allowfullscreen="" __idm_frm__="148" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3724.2170270390957!2d105.7847523!3d21.0240005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab06f80f93cb%3A0x7e20bed07fe7c5bf!2zS2hvIE7hu5lpIFRo4bqldCBMxrDGoW5nIFPGoW4!5e0!3m2!1sen!2s!4v1543890013524"></iframe></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="end">
+    <p>CÔNG TY TNHH THƯƠNG MẠI VÀ XUẤT NHẬP KHẨU PHƯƠNG HÙNG</p>
+    <p>GPKD: 0108422705 do Sở Kế hoạch và Đầu tư Thành phố Hà Nội cấp ngày 05/09/2018</p>
+</div>
+<!-- Back-to-top -->
+
+<div id="back-to-top">
+    <i class="fas fa-angle-double-up fa-fw fa-2x"></i>
+</div>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+<script src="https://kit.fontawesome.com/df8fdd30a5.js"></script>
+
+<script src="js/content.js"></script>
+
+<script src="js/slider.js"></script>
+</body>
+
+</html>

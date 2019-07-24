@@ -1,0 +1,169 @@
+@media only screen and (max-width: 1199px) {
+	.menu {
+		display: none;
+	}
+
+	.form__search {
+		margin-left: 2rem !important;
+	}
+
+	.container .row .form__search input {
+		width: 62rem !important;
+	}
+	
+	.container .row .form__search input {
+		
+	}
+	
+	.icon-menu-top {
+		display: block;
+		font-size: 30px;
+		padding: 0px 10px;
+		color: #000;
+		text-decoration: none;
+		transition: all 0.3s;
+	}
+
+	.icon-menu-top:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+@media only screen and (min-width: 992px)
+{
+	.icon-menu-top {
+		display: none;
+	}
+
+	.widget-menu {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 991px) 
+{
+	
+	.content__primary {
+    	margin-right: 0 !important;
+	}
+
+	.content-left {
+		padding-right: 0 !important;
+	}
+
+	.header__top {
+		display: none;
+	}
+	
+	.contact__mail {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	
+	.form__search {
+		margin-left: 2rem !important;
+	}
+
+	.container .row .form__search input {
+		width: 62rem !important;
+	}
+	
+	.container .row .form__search input {
+		
+	}
+	
+	.icon-menu-top {
+		display: block;
+		font-size: 30px;
+		padding: 0px 10px;
+		color: #000;
+		text-decoration: none;
+		transition: all 0.3s;
+	}
+
+	.icon-menu-top:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	.entry-content {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.content-left {
+		order: 2;
+	}
+
+	.widget {
+		display: none;
+	}
+
+	.support img {
+		display: none;
+	}
+
+	.support__info-1 ,
+	.support__info-2 {
+		font-size: 1.4rem !important;
+	}
+
+	.support__phone {
+		font-size: 2rem !important;
+	}
+
+	.facebook__left {
+		text-align: center;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.footer__info {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.footer__menu {
+		display: none !important;
+	}
+	
+	.widget-menu {
+		display: none;
+	}
+
+	.entry-content .col-lg-9 {
+	    padding-right: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.container {
+		min-width: 100% !important;
+	}
+
+	.container .row .form__search input {
+    	width: 30rem !important;
+	}
+
+	.entry-content .col-lg-9 {
+	    padding-right: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.col-4.col-md-3.col-lg-2.my-4.contact__info,
+	.col-4.col-md-3.col-lg-3.my-4.contact__info,
+	.col-4.col-md-3.col-lg-4.my-4.contact__info {
+		display: none !important;
+	}
+
+	.entry-content .col-lg-9 {
+	    padding-right: 0 !important;
+	}
+}
+
